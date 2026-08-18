@@ -38,7 +38,7 @@ sniffer:
 
 # 入站  
 tun:
-  enable: ture
+  enable: true
   stack: mixed
   dns-hijack: ["any:53", "tcp://any:53"]
   auto-route: false
